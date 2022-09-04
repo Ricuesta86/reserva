@@ -39,7 +39,7 @@ const Hero = () => (
       title={
         <>
           {'¿Quieres reservar en los Hoteles de Cuba?\n'}
-          <span className="text-primary-500">¡Te ayudamos! Contactanos</span>
+          <span className="text-primary-900">¡Te ayudamos!</span>
         </>
       }
       description="Nosotros hacemos todas las gestiones necesarias para que usted vaya al hotel deseado."
