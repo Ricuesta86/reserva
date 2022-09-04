@@ -1,7 +1,7 @@
 import Link from 'next/link';
 
 import { Background } from '../background/Background';
-import { Button } from '../button/Button';
+// import { Button } from '../button/Button';
 import { HeroOneButton } from '../hero/HeroOneButton';
 import { Section } from '../layout/Section';
 import { NavbarTwoColumns } from '../navigation/NavbarTwoColumns';
@@ -34,24 +34,24 @@ const Hero = () => (
       </NavbarTwoColumns>
     </Section>
 
-    <Section yPadding="pt-20 pb-32">
-      <HeroOneButton
-        title={
-          <>
-            {'The modern landing page for\n'}
-            <span className="text-primary-500">React developers</span>
-          </>
-        }
-        description="The easiest way to build a React landing page in seconds."
-        button={
-          <Link href="https://creativedesignsguru.com/category/nextjs/">
-            <a>
-              <Button xl>Download Your Free Theme</Button>
-            </a>
-          </Link>
-        }
-      />
-    </Section>
+    {/* <Section yPadding="pt-20 pb-32"> */}
+    <HeroOneButton
+      title={
+        <>
+          {'¿Quieres reservar en los Hoteles de Cuba?\n'}
+          <span className="text-primary-500">¡Te ayudamos! Contactanos</span>
+        </>
+      }
+      description="Nosotros hacemos todas las gestiones necesarias para que usted vaya al hotel deseado."
+      // button={
+      //   <Link href="https://creativedesignsguru.com/category/nextjs/">
+      //     <a>
+      //       <Button xl>Download Your Free Theme</Button>
+      //     </a>
+      //   </Link>
+      // }
+    />
+    {/* </Section> */}
   </Background>
 );
 
