@@ -1,7 +1,5 @@
 import { ReactNode } from 'react';
 
-import { useRouter } from 'next/router';
-
 type IHeroOneButtonProps = {
   title: ReactNode;
   description: string;
@@ -9,7 +7,6 @@ type IHeroOneButtonProps = {
 };
 
 const HeroOneButton = (props: IHeroOneButtonProps) => {
-  const router = useRouter();
   return (
     <header className="text-center relative">
       <div className="md:absolute top-1/4 sm:left-52 left-0">
@@ -25,7 +22,7 @@ const HeroOneButton = (props: IHeroOneButtonProps) => {
       </div>
 
       <img
-        src={`${router.basePath}/assets/images/imagen3.jpg`}
+        src={`https://i.postimg.cc/wBTxJnFL/imagen3.jpg`}
         alt="Hotel"
         className="inline"
       />
