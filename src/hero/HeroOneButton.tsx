@@ -8,8 +8,8 @@ type IHeroOneButtonProps = {
 
 const HeroOneButton = (props: IHeroOneButtonProps) => {
   return (
-    <header className="text-center relative">
-      <div className="md:absolute top-1/4 sm:left-52 left-0">
+    <header className="text-center relative flex flex-col-reverse">
+      <div className="md:absolute top-1/4 sm:left-52 left-0 md:order-2">
         <h1 className="text-5xl text-gray-900 font-bold whitespace-pre-line leading-hero">
           {props.title}
         </h1>
@@ -24,7 +24,7 @@ const HeroOneButton = (props: IHeroOneButtonProps) => {
       <img
         src={`https://i.postimg.cc/wBTxJnFL/imagen3.jpg`}
         alt="Hotel"
-        className="inline"
+        className="inline md:order-2"
       />
       {/* {props.button} */}
     </header>
