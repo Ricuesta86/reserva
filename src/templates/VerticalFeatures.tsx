@@ -8,8 +8,8 @@ const VerticalFeatures = () => (
   >
     <VerticalFeatureRow
       title="Nosotros"
-      description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse bibendum, nunc non posuere consectetur, justo erat semper enim, non hendrerit dui odio id enim."
-      image="/assets/images/feature.svg"
+      description="Somos un grupo de persona que gestionan las reservaciones en los hoteles de Cuba, que pertenecen a Isla Sur: Los Melia, Gran Caribe,"
+      image="https://i.postimg.cc/d0Hs9nSX/imagen1.jpg"
       imageAlt="First feature alt text"
     />
     <VerticalFeatureRow
